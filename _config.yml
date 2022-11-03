@@ -33,9 +33,12 @@ domain: romanroth.github.io       # if you want to force HTTPS, specify the doma
 url: https://romanroth.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
