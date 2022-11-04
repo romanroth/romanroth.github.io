@@ -1,0 +1,14 @@
+---
+search: false
+---
+
+$body-color: #FF00FF;
+$background-color: #111111;
+$text-color: #FFFFFF;
+$link-color: #D22730;
+$masthead-link-color: #FFFFFF;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
